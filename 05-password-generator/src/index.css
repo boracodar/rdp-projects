@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fafafa;
+}
+
+.container {
+  max-width: 500px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.app-title {
+  margin-bottom: 2rem;
+}
+
+/* Dark theme */
+
+main.dark {
+  background-color: #1F2937;
+  color: white;
+}
+
+main.dark .password-box p {
+  background-color: #4B5563;
+}
+
+main.dark .password-box .digit {
+  color: #60A5FA;
+}
+
+main.dark .password-box .symbol {
+  color: #F87171;
+}

@@ -1,0 +1,27 @@
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.slider + .slider {
+  margin-top: 1rem;
+}
+
+.slider label {
+  width: 4rem;
+}
+
+.slider input[type="range"] {
+  flex-grow: 1;
+}
+
+.slider span {
+  width: 2ch;
+}
+
+.dark-switch {
+  margin-top: 2rem;
+  text-align: center;
+}

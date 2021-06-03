@@ -1,0 +1,2 @@
+# All directories and any subfolders called `node_modules`
+node_modules/

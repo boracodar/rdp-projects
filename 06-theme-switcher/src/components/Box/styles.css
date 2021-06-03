@@ -1,0 +1,13 @@
+.box {
+  width: 8rem;
+  height: 8rem;
+  border: 1px solid #333;
+}
+
+.box.light {
+  background-color: beige;
+}
+
+.box.dark {
+  background-color: cornflowerblue;
+}
