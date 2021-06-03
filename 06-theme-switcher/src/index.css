@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main.light {
+  background-color: #eee;
+  color: #333;
+}
+
+main.dark {
+  background-color: #111;
+  color: white;
+}

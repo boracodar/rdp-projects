@@ -1,0 +1,30 @@
+.password-box {
+  /* Prevents wrapper div and its elements from move in the page */
+  height: 6rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.password-box p {
+  width: 33ch;
+  margin: 2rem auto 0;
+  padding: 1ch 0;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  font-family: monospace;
+  text-align: center;
+  font-size: 1.75rem;
+  word-break: break-all;
+}
+
+.password-box .digit {
+  color: #1a56db;
+}
+
+.password-box .symbol {
+  color: #b43403;
+}

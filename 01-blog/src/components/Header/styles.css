@@ -1,0 +1,16 @@
+header {
+  padding: 1rem 0;
+  background-color: #fee094;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0 auto 1rem;
+}
+
+header img {
+  max-height: 12rem;
+  max-width: 24rem;
+  margin: 0 1rem;
+  border-radius: 10px;
+}

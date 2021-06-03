@@ -1,0 +1,19 @@
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.small-preview {
+  border: 1px solid #777;
+  width: 1rem;
+  height: 1rem;
+}

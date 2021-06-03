@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+main {
+  max-width: 70%;
+  margin: 1rem auto;
+  padding: 1rem;
+}

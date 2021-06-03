@@ -1,0 +1,17 @@
+.main {
+  max-width: 400px;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+.timers {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
