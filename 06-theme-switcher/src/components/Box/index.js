@@ -5,7 +5,7 @@ import ThemeContext from "../../contexts/ThemeContext";
 import "./styles.css";
 
 const Box = () => {
-  const theme = useContext(ThemeContext);
+  const { theme } = useContext(ThemeContext);
 
   return <div className={`box ${theme}`}></div>;
 };
